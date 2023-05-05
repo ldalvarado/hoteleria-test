@@ -1,5 +1,9 @@
 # hoteleria-test
 
+Proyecto de hoteleria que permite calcular las fechas acordes al sistema
+
+El proyecto tiene como funcionalidad cargar una lista de hoteles, que permite al usuario indicarle cual es el mas barato y de mejor calidad a su momento y recursos, para instalarlo solo se debe usar el comando
+
 ## Project setup
 ```
 npm install
@@ -13,11 +17,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
 ```
 
 ### Run your end-to-end tests
