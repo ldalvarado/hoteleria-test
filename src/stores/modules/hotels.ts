@@ -47,7 +47,7 @@ export const useHotelStore = defineStore({
         hotelRating: 0
       }
       if (this.formData.startDate && this.formData.endDate) {
-        if (this.formData.startDate >= this.formData.endDate) {
+        if (moment(this.formData.startDate) >= moment(this.formData.endDate)) {
           return this.cheapestHotel
         }
 

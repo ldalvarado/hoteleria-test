@@ -1,3 +1,9 @@
+
+.hotel_container {
+    width: 1142px;
+    margin: 0 auto; 
+}
+
 .houtel_box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -83,3 +89,38 @@
     transition: all .5s ease;
 }
 
+
+@media only screen and (max-width: 979px) {
+    .houtel_item {
+        -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    }
+    .houtel_item_title {
+        font-size: 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .hotel_container {
+        width: 96%;
+    }
+  
+  }
+  @media only screen and (max-width: 639px) {
+    .houtel_item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .houtel_item_title {
+        min-height: 72px;
+        line-height: 1;
+    
+        font-size: 24px;
+    }
+    .houtel_item_link {
+        padding: 22px 40px;
+    }
+    .houtel_item_date-box {
+        font-size: 16px;
+    }
+}

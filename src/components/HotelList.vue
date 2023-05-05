@@ -2,7 +2,7 @@
     <div class="hotel-list">
         <loading-hotel v-if="loading"></loading-hotel>
         <div v-else>
-            <div class="ag-format-container">
+            <div class="hotel_container">
                 <div class="houtel_box" v-if="cheapestHotel.hotelName === ''">
                     <div class="houtel_item" v-for="(item,index) in hotelStore.list" :key="index">
                         <a href="#" class="houtel_item_link">
